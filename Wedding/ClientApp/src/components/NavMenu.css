@@ -1,7 +1,12 @@
-﻿a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+﻿@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swa');
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    font-family: 'Tangerine', cursive;
+    font-size: 48px;
+    color: #7FC995;
 }
 
 html {
@@ -15,4 +20,12 @@ html {
 
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+.font {
+    font-family: 'LTZapfino One';
+}
+@font-face {
+    font-family: 'LTZapfino One';
+    src: local('LTZapfino One'), url('/ClientApp/src/fonts/LTZapfino One.otf') format('opentype');
+    src: local('LTZapfino One'), url('/ClientApp/src/fonts/LTZapfino One One.ttf') format('truetype');
 }

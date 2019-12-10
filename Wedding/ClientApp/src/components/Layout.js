@@ -7,11 +7,13 @@ export class Layout extends Component {
 
   render () {
     return (
-      <div>
-        <NavMenu />
-        <Container>
-          {this.props.children}
-        </Container>
+        <div>
+            <NavMenu />
+            <div style={{ backgroundColor: '#7FC995' }}> 
+                <Container>
+              {this.props.children}
+                </Container>
+            </div>
       </div>
     );
   }

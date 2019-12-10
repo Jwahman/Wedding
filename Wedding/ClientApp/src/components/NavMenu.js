@@ -3,6 +3,17 @@ import { Collapse, Container, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLi
 import { Link } from 'react-router-dom';
 import './NavMenu.css';
 
+
+
+//const myDiv = styled.div`
+//  @font-face {
+//    font-family: 'Zapfino';
+//    src: url(${Zapfino}) format('truetype');
+//    font-weight: normal;
+//    font-style: normal;
+// }
+//`;
+
 export class NavMenu extends Component {
   static displayName = NavMenu.name;
 
@@ -19,25 +30,27 @@ export class NavMenu extends Component {
     this.setState({
       collapsed: !this.state.collapsed
     });
-  }
+    }
+
+
 
   render () {
     return (
       <header>
         <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" light>
-          <Container>
-            <NavbarBrand tag={Link} to="/">Wedding</NavbarBrand>
+                <Container>
+                    <NavbarBrand tag={Link} to="/">Johannes och Sofias br&ouml;llop</NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
             <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
               <ul className="navbar-nav flex-grow">
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/">Home</NavLink>
+                                <NavLink tag={Link} className="text-dark" to="/">Br&ouml;llop</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/counter">Counter</NavLink>
+                                <NavLink tag={Link} className="text-dark" to="/counter">Transport & V&auml;gbeskrivning</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/fetch-data">Fetch data</NavLink>
+                  <NavLink tag={Link} className="text-dark" to="/fetch-data">Kontakt</NavLink>
                 </NavItem>
               </ul>
             </Collapse>
