@@ -1,19 +1,14 @@
 import React, { Component } from 'react';
-import GoogleMapReact from 'google-map-react';
+import Map from 'google-map-react';
+import Marker from './Marker';
 
-//export class Counter extends Component {
-//    static displayName = Counter.name;
-
-    const AnyReactComponent = ({ text }) => <div>{text}</div>;
- 
 export class Counter extends Component {
     static defaultProps = {
         center: {
-            lat: 59.28425,
-            lng: 13.35368
+            lat: 59.47833333,
+            lng: 13.59361111
         },
         zoom: 11
-        //59°28'42.5"N 13°35'36.8"E
     };
 
   //constructor(props) {
@@ -33,18 +28,19 @@ export class Counter extends Component {
         <div style={{ backgroundColor: '#FFFFFF' }}>
                 <h1>Transport och V&auml;gbeskirvning</h1>
                 Hej det här är ett test
-            <div style={{ height: '100vh', width: '100%' }}>
-                <GoogleMapReact
+            <div style={{ height: '50vh', width: '100%' }}>
+                <Map
                     bootstrapURLKeys={{ key: 'AIzaSyBo9L3 - 8wKzvd4fFj3VGxqh8gqcGtTbtlQ' }}
                     defaultCenter={this.props.center}
                     defaultZoom={this.props.zoom}
                 >
-                    <AnyReactComponent
-                        lat={59.28425}
-                        lng={13.35368}
-                    text="My Marker"
-                />
-                </GoogleMapReact>
+                    <Marker
+                        lat={59.47833333}
+                        lng={13.59361111}
+                        name="My Marker"
+                        color="blue"
+                    />
+                </Map>
             </div>
             
             
@@ -52,7 +48,6 @@ export class Counter extends Component {
     );
   }
 }
-
 //<p>This is a simple example of a React component.</p>
 
 //    <p aria-live="polite">Current count: <strong>{this.state.currentCount}</strong></p>
