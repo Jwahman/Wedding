@@ -1,0 +1,78 @@
+﻿.cornerbordertop {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    border: 1px solid #000;
+}
+
+    .cornerbordertop:before {
+        display: block;
+        content: "";
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        border-top: 1px solid #000;
+        border-left: 1px solid #000;
+    }
+
+    .cornerbordertop:after {
+        display: block;
+        content: "";
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        border-top: 1px solid #000;
+        border-right: 1px solid #000;
+    }
+/*div:before {
+        display: block;
+        content: "";
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        border-top: 1px solid #000;
+        border-left: 1px solid #000;
+    }*/
+
+/*div:after {
+        display: block;
+        content: "";
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        border-top: 1px solid #000;
+        border-right: 1px solid #000;
+    }*/
+
+/*span:before {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+span:after {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}*/

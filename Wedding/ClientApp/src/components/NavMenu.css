@@ -6,20 +6,21 @@ a.navbar-brand {
     word-break: break-all;
     font-family: 'Tangerine', cursive;
     font-size: 48px;
-    color: #7FC995;
+    color: #000000 !important;
 }
 
 html {
-  font-size: 14px;
+    font-size: 14px;
+    
 }
 @media (min-width: 768px) {
   html {
     font-size: 16px;
   }
 }
-
+/*rgb(118, 183, 171)*/
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    box-shadow: 0 .25rem .75rem rgba(112, 130, 93);
 }
 .font {
     font-family: 'LTZapfino One';
