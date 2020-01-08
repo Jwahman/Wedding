@@ -49,16 +49,17 @@ export class FetchData extends Component {
     return (
         <div className="cornerbordertop">
             <h3>Information</h3>
-            
+            <h5>Barn</h5>
             <p>Vi &auml;lskar barn, men under denna dag vill vi ha en vuxenfest med allt vad det inneb&auml;r. Ammande sp&auml;dbarn &auml;r givetvis v&auml;lkomna, men om m&ouml;jligt - l&auml;mna g&auml;rna &auml;ldre barn hemma d&aring; middag och fest inte &auml;r barnanpassade.</p>
+            <h5>Gåvor</h5>
             <p>Det viktigaste f&ouml;r oss &auml;r att f&aring; dela v&aring;r dag med er. Vill ni &auml;nd&aring; ge oss en g&aring;va &auml;r bidrag till en 
             kommande br&ouml;llopsresa det vi &ouml;nskar oss allra mest. S&aring; skriver ni erat kontonummer (br&ouml;llopskonto?) under.</p>
-            
+            <h5>Framförande</h5>
             <p>Om ni &ouml;nskar att framf&ouml;ra n&aring;got under festen/middagen s&aring; finner ni mer information om hur ni ska g&aring; tillv&auml;ga under "Toastmaster & Toastmadame".</p>
             <h5>Kl&auml;dsel</h5>
             <p>Kl&auml;dsel: Kavaj
             Det inneb&auml;r m&ouml;rk kostym f&ouml;r herrarna och kl&auml;nning eller kjol av finare tyg f&ouml;r damerna.</p>
-        <h3>Kontakt</h3>
+            <h3>Kontakt</h3>
             <p>Ni kan n&aring; oss (brudparet) genom att maila eventuella fr&aring;gor till <a href="mailto:jesswed2020@hotmail.com">jesswed2020@hotmail.com</a></p>
 
         </div>

@@ -1,4 +1,5 @@
 ﻿import React, { Component } from 'react';
+import { Row, Col } from 'reactstrap';
 import './Custom.css';
 
 export class Osa extends Component {
@@ -16,10 +17,19 @@ export class Osa extends Component {
     render() {
         return (
             <div>
-                    <input type="text" value={this.state.osaNames} onChange={this.handleChange} className="form-control col-sm-4" />
-                <button className="btn btn-primary" onClick={this.sendOSA}>Send</button>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
+                    <label style={{ marginRight: '15px', textAlign: 'right'}} className="col-sm-2">Namn:</label>
+                    <input type="text" value={this.state.osaNames} onChange={this.handleChange} className="form-control col-sm-6" />
+                    <button className="btn btn-primary" onClick={this.sendOSA}>Send</button>
+                    
                 </div>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px'  }}>
+                    <label style={{ marginRight: '15px', textAlign: 'right' }} className="col-sm-2">Meddelande:</label>
+                    <input type="text" value={this.state.osaNames} onChange={this.handleChange} className="form-control col-sm-6" />
+                    <button className="btn btn-primary" onClick={this.sendOSA}>Send</button>
 
+                </div>
+            </div>
         );
     }
 
