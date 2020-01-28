@@ -136,3 +136,18 @@
     .Countdown-col-element strong {
         font-size: 50px;
     }
+@media screen and (max-width: 768px){
+    .toast-erika{
+        flex-direction: column-reverse;
+    }
+    .toast-jocke{
+        flex-direction: column;
+    }
+    .toast-jocke img, .toast-erika img{
+        margin: auto!important;
+    }
+    .toast-jocke p, .toast-erika p{
+        margin-top: 1rem;
+        width: 100%!important;
+    }
+}

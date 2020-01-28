@@ -70,14 +70,14 @@ export class Toast extends Component {
 
                     <h5 className="h5font">Erika Granqvist</h5>
                     
-                    <div style={{display: 'inline-flex'}}>
+                    <div className="toast-erika" style={{display: 'inline-flex'}}>
                         <p className="bodytext" style={{ width: '85%' }}>Erika är barndomskompis med bruden! Hon har alltid skratt & leende nära tills hand, men misströsta ej - hon kan säga ifrån. Hon är minsann den perfekta toastmadamen. Hon är en idéspruta och hon kan styra upp & hantera i princip vilken situation som helst (även brudens lilla kontrollbehov). Med henne vid spakarna kan man luta sig tillbaka och känna sig trygg.
                         Vill du komma i kontakt med Erika finns hon på tel: 070-369 65 90.</p>
                         <img src={erika} style={{ width: '100px', height: '100px', marginLeft: '35px' }}></img>
                     </div>
 
                     <h5 className="h5font">Joakim Wahman</h5>
-                    <div style={{ display: 'inline-flex' }}>
+                    <div className="toast-jocke" style={{ display: 'inline-flex' }}>
                         <img src={joakim} style={{ width: '100px', height: '100px', marginRight: '35px' }}></img>
                         <p className="bodytext" style={{ width: '85%' }}>Joakim läste till dataingenjör på Karlstad Universitet samtidigt som brudgummen. Deras gemensamma intressen var drakar och bilar, något de fortfarande tycker väldigt mycket om. Joakim är en charmig och väldigt trevlig västgöting med ett sinne för humor. 
                             Han är även gift och har därmed bra insikt i hur saker och ting kan anordnas inför ett bröllop.  

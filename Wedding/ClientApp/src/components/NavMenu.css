@@ -28,6 +28,14 @@ html {
     font-size: 16px;
   }
 }
+@media screen and (max-width: 768px){
+    .navbar-main{
+        height: 25rem!important;
+    }
+    header {
+        background-position: 45% center!important;
+    }
+}
 /*rgb(118, 183, 171)*/
 .box-shadow {
     box-shadow: 0 .25rem .75rem rgba(112, 130, 93);

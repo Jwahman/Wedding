@@ -41,7 +41,7 @@ export class NavMenu extends Component {
   render () {
       return (
           <header style={sectionStyle}>
-              <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white mb-3" style={{height: '650px'}} light >
+              <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white mb-3 navbar-main" style={{height: '650px', display: 'block'}} light >
         <Container>
             <NavbarBrand tag={Link} to="/">Johannes och Sofias br&ouml;llop</NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
