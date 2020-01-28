@@ -1,0 +1,9 @@
+{
+  "Hej och välkomna": "Welcome to React and react-i18next"
+  //"home": {
+  //  "title": "Homepage",
+  //  "text1": "THIS IS A TEST!"
+  //},
+  //"hello": "Hello {name}!",
+  //"fallback": "Fallback message"
+}
